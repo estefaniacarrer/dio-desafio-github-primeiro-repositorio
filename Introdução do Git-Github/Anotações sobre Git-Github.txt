@@ -1,0 +1,87 @@
+Aula 2 - Git e GitHub
+
+Comandos Prompts Windowns (terminal)
+
+Abrir (Prompt) - Pesquisar -> cmd
+
+
+dir (mostrar pastas)
+cd.. (voltar para caminho anterior)
+(cls - limpar o terminal)
+tab (completar o nome da pasta)
+mkdir (criar pasta)
+echo (le o que foi escrito)
+echo hello > hello.txt (criar arquivo)
+seta para cima mostra todos os comandos que foram utilizados
+rmdir workspace /S /Q (Excluir pasta)
+
+Resumo 
+cd
+dir
+mkdir
+del/rmdir
+
+Linux
+cd
+ls
+mkdir
+rm -rf
+-------------------------------------------------------------------------------------------------------------------
+
+Aula 3
+
+BLOBS
+'blob 9\0conteudo'
+
+TREE
+
+armazena "blobs" e tbm o nome do arquivo
+
+uma arvore pode apontar para um blob, ou outras arvores
+
+COMMIT
+
+Aponta para uma arvore, parente, auto, mensagem "inicia"
+timestamp
+é unico para cada autor
+
+Commit -> tree -> blob1, blob2, blo3 .... tree ->blob....etcetc
+
+------------------------------------------------------------------------
+Criando comandos GIT
+
+git init - cria- se um repositório
+git add
+git commit
+
+Markdown - uma forma mais humana de se escrever o arquivo html
+
+Untracked(remove)    Unmodified (commit)/ modified (edita)/ staged (add)
+
+
+git - sistema distribuído
+
+
+git status - mostrar modificações
+
+----------para remover o e-mail-----------
+
+estef@LAPTOP-CMJ1ST7T MINGW64 /c/Workspace/livro-receitas (master)
+$ git config --global --unset user.email
+
+estef@LAPTOP-CMJ1ST7T MINGW64 /c/Workspace/livro-receitas (master)
+$ git config --global --unset user.name
+
+para inserir
+
+estef@LAPTOP-CMJ1ST7T MINGW64 /c/Workspace/livro-receitas (master)
+$ git config --global user.email "estefania.carrer@hotmail.com"
+
+estef@LAPTOP-CMJ1ST7T MINGW64 /c/Workspace/livro-receitas (master)
+$ git config --global user.name "Estefania Carrer"
+
+push empurrar um arquivo para o git "git push origin master"
+
+
+
+respostas 
